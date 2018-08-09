@@ -1,0 +1,14 @@
+.dub
+docs.json
+__dummy.html
+docs/
+webchat.so
+webchat.dylib
+webchat.dll
+webchat.a
+webchat.lib
+webchat-test-*
+*.exe
+*.o
+*.obj
+*.lst

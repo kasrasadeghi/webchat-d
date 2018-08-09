@@ -1,0 +1,6 @@
+---
+applications:
+- name: kasras-webchat
+  buildpack: https://github.com/cloudfoundry/binary-buildpack.git
+  memory: 128M
+  instances: 1

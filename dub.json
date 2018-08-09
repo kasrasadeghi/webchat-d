@@ -1,0 +1,23 @@
+{
+	"name": "webchat",
+	"authors": [
+		"Kasra Sadeghi"
+	],
+	"dependencies": {
+		"vibe-d": "~>0.8.2"
+	},
+	"description": "A simple vibe.d server application.",
+	"copyright": "Copyright © 2018, Kasra Sadeghi",
+	"license": "proprietary",
+	"configurations": [
+		{
+			"name": "static",
+			"targetType": "executable",
+			"platforms": ["posix"],
+			"lflags": [
+				"-lssl",
+				"-lcrypto"
+			]
+		}
+	]
+}
